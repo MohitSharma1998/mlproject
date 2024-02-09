@@ -1,0 +1,13 @@
+prefix=/mnt/c/mohit/ML_Project/venv
+exec_prefix=/mnt/c/mohit/ML_Project/venv
+libdir=/mnt/c/mohit/ML_Project/venv/lib
+sharedlibdir=/mnt/c/mohit/ML_Project/venv/lib
+includedir=/mnt/c/mohit/ML_Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
