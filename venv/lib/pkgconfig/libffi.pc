@@ -2,10 +2,10 @@ prefix=/mnt/c/mohit/ML_Project/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=${prefix}/include
+includedir=/mnt/c/mohit/ML_Project/venv/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces
-Version: 3.2.1
+Version: 3.4.4
 Libs: -L${toolexeclibdir} -lffi
 Cflags: -I${includedir}

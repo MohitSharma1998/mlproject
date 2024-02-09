@@ -1,0 +1,646 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "mccabe >=0.7.0,<0.8.0",
+    "pycodestyle >=2.11.0,<2.12.0",
+    "pyflakes >=3.1.0,<3.2.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/flake8-6.1.0-py38h06a4308_0",
+  "files": [
+    "bin/flake8",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/flake8-6.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/flake8/__init__.py",
+    "lib/python3.8/site-packages/flake8/__main__.py",
+    "lib/python3.8/site-packages/flake8/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/_compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/checker.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/defaults.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/discover_files.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/processor.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/statistics.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/style_guide.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/__pycache__/violation.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/_compat.py",
+    "lib/python3.8/site-packages/flake8/api/__init__.py",
+    "lib/python3.8/site-packages/flake8/api/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/api/__pycache__/legacy.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/api/legacy.py",
+    "lib/python3.8/site-packages/flake8/checker.py",
+    "lib/python3.8/site-packages/flake8/defaults.py",
+    "lib/python3.8/site-packages/flake8/discover_files.py",
+    "lib/python3.8/site-packages/flake8/exceptions.py",
+    "lib/python3.8/site-packages/flake8/formatting/__init__.py",
+    "lib/python3.8/site-packages/flake8/formatting/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/formatting/__pycache__/_windows_color.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/formatting/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/formatting/__pycache__/default.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/formatting/_windows_color.py",
+    "lib/python3.8/site-packages/flake8/formatting/base.py",
+    "lib/python3.8/site-packages/flake8/formatting/default.py",
+    "lib/python3.8/site-packages/flake8/main/__init__.py",
+    "lib/python3.8/site-packages/flake8/main/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/main/__pycache__/application.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/main/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/main/__pycache__/debug.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/main/__pycache__/options.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/main/application.py",
+    "lib/python3.8/site-packages/flake8/main/cli.py",
+    "lib/python3.8/site-packages/flake8/main/debug.py",
+    "lib/python3.8/site-packages/flake8/main/options.py",
+    "lib/python3.8/site-packages/flake8/options/__init__.py",
+    "lib/python3.8/site-packages/flake8/options/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/options/__pycache__/aggregator.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/options/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/options/__pycache__/manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/options/__pycache__/parse_args.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/options/aggregator.py",
+    "lib/python3.8/site-packages/flake8/options/config.py",
+    "lib/python3.8/site-packages/flake8/options/manager.py",
+    "lib/python3.8/site-packages/flake8/options/parse_args.py",
+    "lib/python3.8/site-packages/flake8/plugins/__init__.py",
+    "lib/python3.8/site-packages/flake8/plugins/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/plugins/__pycache__/finder.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/plugins/__pycache__/pycodestyle.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/plugins/__pycache__/pyflakes.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/plugins/__pycache__/reporter.cpython-38.pyc",
+    "lib/python3.8/site-packages/flake8/plugins/finder.py",
+    "lib/python3.8/site-packages/flake8/plugins/pycodestyle.py",
+    "lib/python3.8/site-packages/flake8/plugins/pyflakes.py",
+    "lib/python3.8/site-packages/flake8/plugins/reporter.py",
+    "lib/python3.8/site-packages/flake8/processor.py",
+    "lib/python3.8/site-packages/flake8/statistics.py",
+    "lib/python3.8/site-packages/flake8/style_guide.py",
+    "lib/python3.8/site-packages/flake8/utils.py",
+    "lib/python3.8/site-packages/flake8/violation.py"
+  ],
+  "fn": "flake8-6.1.0-py38h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/root/miniconda3/pkgs/flake8-6.1.0-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "876b3f7f44d217683af7f0b2d44d3529",
+  "name": "flake8",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/flake8-6.1.0-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/flake8",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/flake8_1701975174177/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c2f25fd671c0f7f4d28b14e9ca68c8ca6b600cadc5b947392de1636cde42b170",
+        "sha256_in_prefix": "f6bc8bb43468983cda48dc30150bd3c66728ce3d0750e70773c5451a94c2ec3d",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e46df9e59cebfbe0b14492e5cde341e8ec42d252a99b6a583fc4608863a5dabe",
+        "sha256_in_prefix": "e46df9e59cebfbe0b14492e5cde341e8ec42d252a99b6a583fc4608863a5dabe",
+        "size_in_bytes": 1172
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f33e399dad6216cb673763b829815a6fe0df7ec5df156c2a1f2d72efdec2a9d9",
+        "sha256_in_prefix": "f33e399dad6216cb673763b829815a6fe0df7ec5df156c2a1f2d72efdec2a9d9",
+        "size_in_bytes": 3810
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "897069995caeb5245b3551a5a0d6ce9dbe179544a77bdb852d59da5981d823a5",
+        "sha256_in_prefix": "897069995caeb5245b3551a5a0d6ce9dbe179544a77bdb852d59da5981d823a5",
+        "size_in_bytes": 5170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ec824fb58dc0e408f1ed89be7951822fac56fcc62328a067fc8318e9885796a6",
+        "sha256_in_prefix": "ec824fb58dc0e408f1ed89be7951822fac56fcc62328a067fc8318e9885796a6",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "0cbff83cf5565ae745b4f8d2fbb017ff0b72146b7463d54dd0abcd8c27a34bbb",
+        "sha256_in_prefix": "0cbff83cf5565ae745b4f8d2fbb017ff0b72146b7463d54dd0abcd8c27a34bbb",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8-6.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e93968fe2edc840863a909326ddc0f7c295aaa2d3e764261ff6a353d29f56813",
+        "sha256_in_prefix": "e93968fe2edc840863a909326ddc0f7c295aaa2d3e764261ff6a353d29f56813",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8ee49ed0904fd50fe66ce15d0d3b74bfbaf7d5c4167ef4fccafa66c6fb3f7188",
+        "sha256_in_prefix": "8ee49ed0904fd50fe66ce15d0d3b74bfbaf7d5c4167ef4fccafa66c6fb3f7188",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "964c694165978c0a607ac531655616df14c64d3f6ed258f60e915e40ed7e756b",
+        "sha256_in_prefix": "964c694165978c0a607ac531655616df14c64d3f6ed258f60e915e40ed7e756b",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7b509613d003f62b1b15f89689f4ffe3179ac430cd8f5b9973fb8168e6d0b68",
+        "sha256_in_prefix": "e7b509613d003f62b1b15f89689f4ffe3179ac430cd8f5b9973fb8168e6d0b68",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "91c843141d5fb356c6fbd032b2447cc8ca69049a9d4f6a585a9fb2d28c943442",
+        "sha256_in_prefix": "91c843141d5fb356c6fbd032b2447cc8ca69049a9d4f6a585a9fb2d28c943442",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36637026fe8aa85d3eba4b63756ccc0770a139333d424b84226714c30fc26dd6",
+        "sha256_in_prefix": "36637026fe8aa85d3eba4b63756ccc0770a139333d424b84226714c30fc26dd6",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/checker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f30d41d73ed713be1fe6b7451588094f12bd09cfe961cfdf8acbd575a8b340a",
+        "sha256_in_prefix": "7f30d41d73ed713be1fe6b7451588094f12bd09cfe961cfdf8acbd575a8b340a",
+        "size_in_bytes": 15080
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/defaults.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3346d8a5a1ed09330a7efbfcae4b21a966402385f0c0d397e68b6a89215fad50",
+        "sha256_in_prefix": "3346d8a5a1ed09330a7efbfcae4b21a966402385f0c0d397e68b6a89215fad50",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/discover_files.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecfa0063295531d1b4460f3a3688d674c72da7034df97f035afd06b4b0c98a0b",
+        "sha256_in_prefix": "ecfa0063295531d1b4460f3a3688d674c72da7034df97f035afd06b4b0c98a0b",
+        "size_in_bytes": 2225
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "473f5125fbd15c43e6b37fc365f1951fb258730959e639062b58814af687e10b",
+        "sha256_in_prefix": "473f5125fbd15c43e6b37fc365f1951fb258730959e639062b58814af687e10b",
+        "size_in_bytes": 3075
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/processor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "93039bdf10b0db1455a39ebb655a3c5c5bee9b0190286385614a447d2c93ed3c",
+        "sha256_in_prefix": "93039bdf10b0db1455a39ebb655a3c5c5bee9b0190286385614a447d2c93ed3c",
+        "size_in_bytes": 13251
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/statistics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b13bb05bc3d9cc2eed4342d2a5a10e45b60d0e831e3f1cad476c292c1eba099a",
+        "sha256_in_prefix": "b13bb05bc3d9cc2eed4342d2a5a10e45b60d0e831e3f1cad476c292c1eba099a",
+        "size_in_bytes": 5425
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/style_guide.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eddda8772c428231377d5fc2a50dd8a27184b7373a6d5f39b7ca70ee725a353",
+        "sha256_in_prefix": "3eddda8772c428231377d5fc2a50dd8a27184b7373a6d5f39b7ca70ee725a353",
+        "size_in_bytes": 12432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "005ce4e2d31fe97decd3d0da97ca5a5838432e7cb2716127db5d72a137b7621f",
+        "sha256_in_prefix": "005ce4e2d31fe97decd3d0da97ca5a5838432e7cb2716127db5d72a137b7621f",
+        "size_in_bytes": 8312
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/__pycache__/violation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "09dc27da630d4619ab50b67f27e0bf56234e009c054521d68496395570b4f572",
+        "sha256_in_prefix": "09dc27da630d4619ab50b67f27e0bf56234e009c054521d68496395570b4f572",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "bbd3780f1a37e663e6c45ea141644f0a33aa54790b17c1f10a0a60be0c6e7ae4",
+        "sha256_in_prefix": "bbd3780f1a37e663e6c45ea141644f0a33aa54790b17c1f10a0a60be0c6e7ae4",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c606aa1f97a117911e67a237e5b3f9ba3f4ecc04aff5ae00705347c41e285ee4",
+        "sha256_in_prefix": "c606aa1f97a117911e67a237e5b3f9ba3f4ecc04aff5ae00705347c41e285ee4",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/api/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f01e7a57aab95b3a8ca0320817c2010c252a08ec583cb1e0a2ebcb10a55a4bab",
+        "sha256_in_prefix": "f01e7a57aab95b3a8ca0320817c2010c252a08ec583cb1e0a2ebcb10a55a4bab",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/api/__pycache__/legacy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "90aeebf31f18c0b48c4436dcc457518320996861165ef745d92803590466b275",
+        "sha256_in_prefix": "90aeebf31f18c0b48c4436dcc457518320996861165ef745d92803590466b275",
+        "size_in_bytes": 7061
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/api/legacy.py",
+        "path_type": "hardlink",
+        "sha256": "53673391949cb95867309f4ccc30659e0e2a7e0f4b1ac108d2f8e8b17beb5cf6",
+        "sha256_in_prefix": "53673391949cb95867309f4ccc30659e0e2a7e0f4b1ac108d2f8e8b17beb5cf6",
+        "size_in_bytes": 6898
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/checker.py",
+        "path_type": "hardlink",
+        "sha256": "ba8a8446904b194da3d28ed9bce96d0103d9748b231be0a87474300c20ec3da7",
+        "sha256_in_prefix": "ba8a8446904b194da3d28ed9bce96d0103d9748b231be0a87474300c20ec3da7",
+        "size_in_bytes": 22581
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "6a5d08159eab39d22f6bf5e0b9e1861aa74c69ff5f4ed1f0958dddb0077fd85a",
+        "sha256_in_prefix": "6a5d08159eab39d22f6bf5e0b9e1861aa74c69ff5f4ed1f0958dddb0077fd85a",
+        "size_in_bytes": 1109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/discover_files.py",
+        "path_type": "hardlink",
+        "sha256": "3d74723c1e2512836ca7c1e3aa4b1286c554cd6ecfd62f0941d70949fa8dedb9",
+        "sha256_in_prefix": "3d74723c1e2512836ca7c1e3aa4b1286c554cd6ecfd62f0941d70949fa8dedb9",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "925a248e8bc99251e88cdc27f8d15394ca7f3c454b300617cdcf6e98843e6c8f",
+        "sha256_in_prefix": "925a248e8bc99251e88cdc27f8d15394ca7f3c454b300617cdcf6e98843e6c8f",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19e53eec8c1fdd39c61e219db7792c54c6dbb3a6bac5ad9fde4f7092a63ee960",
+        "sha256_in_prefix": "19e53eec8c1fdd39c61e219db7792c54c6dbb3a6bac5ad9fde4f7092a63ee960",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "74f89b42199057d347c02e940ea0a840a47e80b727a947bb556a8b814a04de85",
+        "sha256_in_prefix": "74f89b42199057d347c02e940ea0a840a47e80b727a947bb556a8b814a04de85",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/__pycache__/_windows_color.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8eca38bb990dcf5254ecbe008feda3fd64c7fa23ec867167073ee1f6942850ef",
+        "sha256_in_prefix": "8eca38bb990dcf5254ecbe008feda3fd64c7fa23ec867167073ee1f6942850ef",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/__pycache__/base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5552d6bce799f4bf0975f8c0b16ce9885e5efa8a0b99f7983f99c289c3cbab2",
+        "sha256_in_prefix": "c5552d6bce799f4bf0975f8c0b16ce9885e5efa8a0b99f7983f99c289c3cbab2",
+        "size_in_bytes": 7387
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/__pycache__/default.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3ea4b4ea128299bcb8ea8c657a8a2dab3005b284249727a7e7e86489d08c2d0",
+        "sha256_in_prefix": "e3ea4b4ea128299bcb8ea8c657a8a2dab3005b284249727a7e7e86489d08c2d0",
+        "size_in_bytes": 4015
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/_windows_color.py",
+        "path_type": "hardlink",
+        "sha256": "674cf47ec28e36399bf59d790fc0427411a6f672796a67ef08176ccb51553b5b",
+        "sha256_in_prefix": "674cf47ec28e36399bf59d790fc0427411a6f672796a67ef08176ccb51553b5b",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/base.py",
+        "path_type": "hardlink",
+        "sha256": "09d115401598a44c95f4dc5aad716f70ca68a660034f82ccbf67569663f04b05",
+        "sha256_in_prefix": "09d115401598a44c95f4dc5aad716f70ca68a660034f82ccbf67569663f04b05",
+        "size_in_bytes": 7356
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/formatting/default.py",
+        "path_type": "hardlink",
+        "sha256": "b9b642050b30773f9cabaeb504ccc7442214e721a9786a3fe642aa9a1a8f557b",
+        "sha256_in_prefix": "b9b642050b30773f9cabaeb504ccc7442214e721a9786a3fe642aa9a1a8f557b",
+        "size_in_bytes": 3057
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9abe183c954e0d51119bfd27cfbb26b2413546e568a69d4b4bb37e045546c2e9",
+        "sha256_in_prefix": "9abe183c954e0d51119bfd27cfbb26b2413546e568a69d4b4bb37e045546c2e9",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "14d34fa7727493a53f6c19c12773a5aae4bf4b9b90f4d82155b5a006146b3fef",
+        "sha256_in_prefix": "14d34fa7727493a53f6c19c12773a5aae4bf4b9b90f4d82155b5a006146b3fef",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__pycache__/application.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3feb58275354d2f26a0292077f390fb466896e798fd6d6a79c1a9e88c583dbfe",
+        "sha256_in_prefix": "3feb58275354d2f26a0292077f390fb466896e798fd6d6a79c1a9e88c583dbfe",
+        "size_in_bytes": 6613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__pycache__/cli.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "44217cfa55c7c7733844ff3b944c097c395f1839779cab5897a56ec07f7cfdba",
+        "sha256_in_prefix": "44217cfa55c7c7733844ff3b944c097c395f1839779cab5897a56ec07f7cfdba",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__pycache__/debug.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b9009478d87e683600abfa355219cc87ce95c1f018c4ed4b6c5b65274378f24",
+        "sha256_in_prefix": "4b9009478d87e683600abfa355219cc87ce95c1f018c4ed4b6c5b65274378f24",
+        "size_in_bytes": 1165
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/__pycache__/options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2b0e473d13b24f84e0b551fd98cc03288387ec36c1794870c59767deac4daf7",
+        "sha256_in_prefix": "f2b0e473d13b24f84e0b551fd98cc03288387ec36c1794870c59767deac4daf7",
+        "size_in_bytes": 8262
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/application.py",
+        "path_type": "hardlink",
+        "sha256": "16c6f98270156918b9e38ed3a6d09e848f7709fc7342b43659e396ee3c0787c3",
+        "sha256_in_prefix": "16c6f98270156918b9e38ed3a6d09e848f7709fc7342b43659e396ee3c0787c3",
+        "size_in_bytes": 7949
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/cli.py",
+        "path_type": "hardlink",
+        "sha256": "e1f8bc0724214a53a4a60ac979cef6c6d63c158174b9ce2bf5ea142108a873ef",
+        "sha256_in_prefix": "e1f8bc0724214a53a4a60ac979cef6c6d63c158174b9ce2bf5ea142108a873ef",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/debug.py",
+        "path_type": "hardlink",
+        "sha256": "59c9f510d9bfc6b0a8a6cbfcff0ef8e24b7ee70700e5cce8e24c96d7c3018ebc",
+        "sha256_in_prefix": "59c9f510d9bfc6b0a8a6cbfcff0ef8e24b7ee70700e5cce8e24c96d7c3018ebc",
+        "size_in_bytes": 911
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/main/options.py",
+        "path_type": "hardlink",
+        "sha256": "0e5fbbfc6b9b0e87868f550d6f9283664e2ac13a43a4df9eb69f99dd4f66a74d",
+        "sha256_in_prefix": "0e5fbbfc6b9b0e87868f550d6f9283664e2ac13a43a4df9eb69f99dd4f66a74d",
+        "size_in_bytes": 11008
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "729c503e31bc81c072809e0207c6d180385284f9dcc0e4f966ae77e78efd074d",
+        "sha256_in_prefix": "729c503e31bc81c072809e0207c6d180385284f9dcc0e4f966ae77e78efd074d",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "45d07aeddb3a50c2f63db32d385e89f787dbe8fc4b81f5c964fabc7d162e6031",
+        "sha256_in_prefix": "45d07aeddb3a50c2f63db32d385e89f787dbe8fc4b81f5c964fabc7d162e6031",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__pycache__/aggregator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7c3e2f2f45a7bcfbaf05a97a27fde3e84ca4d2cf123e7f17498b06ca47393d9",
+        "sha256_in_prefix": "d7c3e2f2f45a7bcfbaf05a97a27fde3e84ca4d2cf123e7f17498b06ca47393d9",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b448c785d91d286409990b6ac4592e7b5c9db7b3d58a890144a485b7cff01c31",
+        "sha256_in_prefix": "b448c785d91d286409990b6ac4592e7b5c9db7b3d58a890144a485b7cff01c31",
+        "size_in_bytes": 3354
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__pycache__/manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b320c3a5b94540be2444e8debaaddb3ec83d68552fb7f85ae62eaa2fec307a2",
+        "sha256_in_prefix": "5b320c3a5b94540be2444e8debaaddb3ec83d68552fb7f85ae62eaa2fec307a2",
+        "size_in_bytes": 9935
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/__pycache__/parse_args.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7121d06c2b010a5d2e9c869a25f30c1add81645559dfa82daef6b3e0c8cf2555",
+        "sha256_in_prefix": "7121d06c2b010a5d2e9c869a25f30c1add81645559dfa82daef6b3e0c8cf2555",
+        "size_in_bytes": 1734
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/aggregator.py",
+        "path_type": "hardlink",
+        "sha256": "b1db5337366e50c8ae702ba9b35dc41d9b03bdf6d43d4749570872c78492e45f",
+        "sha256_in_prefix": "b1db5337366e50c8ae702ba9b35dc41d9b03bdf6d43d4749570872c78492e45f",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/config.py",
+        "path_type": "hardlink",
+        "sha256": "3a3f8e3bcf596cd42d1541dc1c3676e317884f68137c05eb72eb76727795873e",
+        "sha256_in_prefix": "3a3f8e3bcf596cd42d1541dc1c3676e317884f68137c05eb72eb76727795873e",
+        "size_in_bytes": 4572
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/manager.py",
+        "path_type": "hardlink",
+        "sha256": "61fddadf096887ac3a6ec2421ab65c524201a6edba9481a556944e05965ba775",
+        "sha256_in_prefix": "61fddadf096887ac3a6ec2421ab65c524201a6edba9481a556944e05965ba775",
+        "size_in_bytes": 11525
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/options/parse_args.py",
+        "path_type": "hardlink",
+        "sha256": "b438e8098faa6bd2e595a89b83d454d10067d9a03dadab6f931a204140316785",
+        "sha256_in_prefix": "b438e8098faa6bd2e595a89b83d454d10067d9a03dadab6f931a204140316785",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f44685d8c5feb69f54f5bc81caf985d3946c8201f4e351fac8f1f7d50e0efa57",
+        "sha256_in_prefix": "f44685d8c5feb69f54f5bc81caf985d3946c8201f4e351fac8f1f7d50e0efa57",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f6ac328818d6c3e808df4582d0a7fffa0b20fb60b3de554ac95e9bd3ad079a6",
+        "sha256_in_prefix": "0f6ac328818d6c3e808df4582d0a7fffa0b20fb60b3de554ac95e9bd3ad079a6",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__pycache__/finder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "01efa17cb2ebcc042639c1db0b2e958379179e0be05be8bbab644ac83bcca25e",
+        "sha256_in_prefix": "01efa17cb2ebcc042639c1db0b2e958379179e0be05be8bbab644ac83bcca25e",
+        "size_in_bytes": 10073
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__pycache__/pycodestyle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fa32c8a889793d01b2bbc30dd8190d63b21148383f008ae01e157e252fcc247",
+        "sha256_in_prefix": "5fa32c8a889793d01b2bbc30dd8190d63b21148383f008ae01e157e252fcc247",
+        "size_in_bytes": 4055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__pycache__/pyflakes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ac991f96062705efdbde00b22bbfe6593fa1c7a91b4e5b4f675d9a0fd4c7152",
+        "sha256_in_prefix": "9ac991f96062705efdbde00b22bbfe6593fa1c7a91b4e5b4f675d9a0fd4c7152",
+        "size_in_bytes": 5590
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/__pycache__/reporter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b1cdd4f3f127a837a141a417b080c197e79f7247d9536cf580cc0f443d96234",
+        "sha256_in_prefix": "9b1cdd4f3f127a837a141a417b080c197e79f7247d9536cf580cc0f443d96234",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/finder.py",
+        "path_type": "hardlink",
+        "sha256": "5e93d2be714fb508bb8daea8e515012072bd239b16d0b35fd0fb6e5c35ffc42f",
+        "sha256_in_prefix": "5e93d2be714fb508bb8daea8e515012072bd239b16d0b35fd0fb6e5c35ffc42f",
+        "size_in_bytes": 11154
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/pycodestyle.py",
+        "path_type": "hardlink",
+        "sha256": "5714cbcce6d716c57c6d693a330599fc123370dfce4467ffd5437d03cd8e2eb4",
+        "sha256_in_prefix": "5714cbcce6d716c57c6d693a330599fc123370dfce4467ffd5437d03cd8e2eb4",
+        "size_in_bytes": 5680
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/pyflakes.py",
+        "path_type": "hardlink",
+        "sha256": "3fd53ab2d996c2590c998f3e1aa1deac635c387cb7c8cae0ef42334ee5201b4f",
+        "sha256_in_prefix": "3fd53ab2d996c2590c998f3e1aa1deac635c387cb7c8cae0ef42334ee5201b4f",
+        "size_in_bytes": 6717
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/plugins/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "d23af750a7a1cc06a4757f6cc7e67cb7484070a3c6b534f0361e217628caaa01",
+        "sha256_in_prefix": "d23af750a7a1cc06a4757f6cc7e67cb7484070a3c6b534f0361e217628caaa01",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/processor.py",
+        "path_type": "hardlink",
+        "sha256": "c25f4d701a3f21253f9dd4a3f5be5968c389b0903fd5d35946f646667aec6413",
+        "sha256_in_prefix": "c25f4d701a3f21253f9dd4a3f5be5968c389b0903fd5d35946f646667aec6413",
+        "size_in_bytes": 16599
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/statistics.py",
+        "path_type": "hardlink",
+        "sha256": "9d259975cebcbc874650da7734966be629e5a93ab9e9d1c98b436526022b498f",
+        "sha256_in_prefix": "9d259975cebcbc874650da7734966be629e5a93ab9e9d1c98b436526022b498f",
+        "size_in_bytes": 4358
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/style_guide.py",
+        "path_type": "hardlink",
+        "sha256": "3c08c4817b7fc25ab96e72f70461647b4c6e409883889322e5d46589d09ba683",
+        "sha256_in_prefix": "3c08c4817b7fc25ab96e72f70461647b4c6e409883889322e5d46589d09ba683",
+        "size_in_bytes": 14432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ea666ff9e36a6c7f426c64a69d5ce20a4b354dd59e36035fa57c085521ff995b",
+        "sha256_in_prefix": "ea666ff9e36a6c7f426c64a69d5ce20a4b354dd59e36035fa57c085521ff995b",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "lib/python3.8/site-packages/flake8/violation.py",
+        "path_type": "hardlink",
+        "sha256": "b52808a1cee27459a3cef4a6f037d4e1a7cd31eb708d89fc167186bd862b1eb7",
+        "sha256_in_prefix": "b52808a1cee27459a3cef4a6f037d4e1a7cd31eb708d89fc167186bd862b1eb7",
+        "size_in_bytes": 2039
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "flake8",
+  "sha256": "c32e2f6f0eeddd88183f8ea4923d5721c68fde2a8d9c4fda12f9ccc9271b04ca",
+  "size": 94156,
+  "subdir": "linux-64",
+  "timestamp": 1701975243000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/flake8-6.1.0-py38h06a4308_0.conda",
+  "version": "6.1.0"
+}

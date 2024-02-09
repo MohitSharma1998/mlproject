@@ -1,0 +1,451 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/pyflakes-3.1.0-py38h06a4308_0",
+  "files": [
+    "bin/pyflakes",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pyflakes/__init__.py",
+    "lib/python3.8/site-packages/pyflakes/__main__.py",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/checker.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/messages.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/__pycache__/reporter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/api.py",
+    "lib/python3.8/site-packages/pyflakes/checker.py",
+    "lib/python3.8/site-packages/pyflakes/messages.py",
+    "lib/python3.8/site-packages/pyflakes/reporter.py",
+    "lib/python3.8/site-packages/pyflakes/scripts/__init__.py",
+    "lib/python3.8/site-packages/pyflakes/scripts/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/scripts/__pycache__/pyflakes.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/scripts/pyflakes.py",
+    "lib/python3.8/site-packages/pyflakes/test/__init__.py",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/harness.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_builtin.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_code_segment.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_doctests.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_imports.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_is_literal.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_match.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_other.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_type_annotations.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_undefined_names.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyflakes/test/harness.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_api.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_builtin.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_code_segment.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_dict.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_doctests.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_imports.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_is_literal.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_match.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_other.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_type_annotations.py",
+    "lib/python3.8/site-packages/pyflakes/test/test_undefined_names.py"
+  ],
+  "fn": "pyflakes-3.1.0-py38h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/root/miniconda3/pkgs/pyflakes-3.1.0-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "fa7d53d91fd6cad7c01512975c7d6674",
+  "name": "pyflakes",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/pyflakes-3.1.0-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pyflakes",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/pyflakes_1701821051732/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "1693c07ca83169473456ae109d2e42cda8e688859fbde79364037d0e6f65d00d",
+        "sha256_in_prefix": "6db169996d8506b05bb56866094ffc2bff153583470640bc4d8a6e0f9cd33e84",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "22c47569cc0aae531b372361366818af01c6fc2e314770584a7866c92b3a0463",
+        "sha256_in_prefix": "22c47569cc0aae531b372361366818af01c6fc2e314770584a7866c92b3a0463",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b70f7594ba5ad4cac35e86d4fcee248b6ac066e1e7ec4f212bba7052d1e042d3",
+        "sha256_in_prefix": "b70f7594ba5ad4cac35e86d4fcee248b6ac066e1e7ec4f212bba7052d1e042d3",
+        "size_in_bytes": 3486
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f511dda3f8870b07710e61370d760440a53eed5c5b28a5c8dcf344441133fbb5",
+        "sha256_in_prefix": "f511dda3f8870b07710e61370d760440a53eed5c5b28a5c8dcf344441133fbb5",
+        "size_in_bytes": 3753
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a968ce38220cf08181d550d99ce50b2ffe2775c5556ee76ced67f9a84b69beb9",
+        "sha256_in_prefix": "a968ce38220cf08181d550d99ce50b2ffe2775c5556ee76ced67f9a84b69beb9",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2177bef5ebde52b0271ac0ed807733d88c8f2a809623d6f86d71cb5e8847a931",
+        "sha256_in_prefix": "2177bef5ebde52b0271ac0ed807733d88c8f2a809623d6f86d71cb5e8847a931",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c2e2be99cc2cfeff4c36413265a5700f6c7d8dd864b9185d61972aa4116588d3",
+        "sha256_in_prefix": "c2e2be99cc2cfeff4c36413265a5700f6c7d8dd864b9185d61972aa4116588d3",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b687803ecc1ab5cfd651adce8ab28fe601b9bfa75a1226caff8bb7184fd47aa",
+        "sha256_in_prefix": "8b687803ecc1ab5cfd651adce8ab28fe601b9bfa75a1226caff8bb7184fd47aa",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "f619ad4eaa38a8043077bd5fd9e91630881be777ebc4657011a6c55861bf5a21",
+        "sha256_in_prefix": "f619ad4eaa38a8043077bd5fd9e91630881be777ebc4657011a6c55861bf5a21",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb5e6c51075e8baabecef82ce330702ecd9875438f16002b878f55904a6f63ad",
+        "sha256_in_prefix": "bb5e6c51075e8baabecef82ce330702ecd9875438f16002b878f55904a6f63ad",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4d7de909a6c78800972dfac0e240e744011c79970bb9c78e2478fc9a09a86de",
+        "sha256_in_prefix": "d4d7de909a6c78800972dfac0e240e744011c79970bb9c78e2478fc9a09a86de",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f120eb5a3397ba28f65e8829e3ca0d5b48cab30b60cafb2d7d0a149da4732ffe",
+        "sha256_in_prefix": "f120eb5a3397ba28f65e8829e3ca0d5b48cab30b60cafb2d7d0a149da4732ffe",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/checker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c11853ee35a167e6733f5fc025d2dbd734630e56ca9d2235b320338108b74a7",
+        "sha256_in_prefix": "8c11853ee35a167e6733f5fc025d2dbd734630e56ca9d2235b320338108b74a7",
+        "size_in_bytes": 58977
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/messages.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fe234a777a30dae7856983a44ee1926f776890ebb79fb0c97303b455c3567c1",
+        "sha256_in_prefix": "8fe234a777a30dae7856983a44ee1926f776890ebb79fb0c97303b455c3567c1",
+        "size_in_bytes": 14891
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/__pycache__/reporter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "623df15df4953b4accd851f422e8dac3afe1096b4b7db05a3f9009ac4e4bfea5",
+        "sha256_in_prefix": "623df15df4953b4accd851f422e8dac3afe1096b4b7db05a3f9009ac4e4bfea5",
+        "size_in_bytes": 3049
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/api.py",
+        "path_type": "hardlink",
+        "sha256": "3070f542eb8fd36cd564b6f3a3d9409b63d327ff8fcb6835a9a1fd905171d6e7",
+        "sha256_in_prefix": "3070f542eb8fd36cd564b6f3a3d9409b63d327ff8fcb6835a9a1fd905171d6e7",
+        "size_in_bytes": 5550
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/checker.py",
+        "path_type": "hardlink",
+        "sha256": "67d99860eff69cefe3df3e38493ac57e6c4d83f5a4a94b3123fc2e0a5c76e90b",
+        "sha256_in_prefix": "67d99860eff69cefe3df3e38493ac57e6c4d83f5a4a94b3123fc2e0a5c76e90b",
+        "size_in_bytes": 75643
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/messages.py",
+        "path_type": "hardlink",
+        "sha256": "06a4291fbbb0bf0ccf75eb5c0feeeac775826f598b09d6c3a14247a5eecb016f",
+        "sha256_in_prefix": "06a4291fbbb0bf0ccf75eb5c0feeeac775826f598b09d6c3a14247a5eecb016f",
+        "size_in_bytes": 10227
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "f4d69eb0b554d8426d39cf3058d45cae06f18d95509d102b6768d5a57a6dfeae",
+        "sha256_in_prefix": "f4d69eb0b554d8426d39cf3058d45cae06f18d95509d102b6768d5a57a6dfeae",
+        "size_in_bytes": 3001
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/scripts/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e804f748d23f1996f0cb8744d0f4bcf017f5c1d8cf91ff0a2fe09c5ce6e2c8f",
+        "sha256_in_prefix": "8e804f748d23f1996f0cb8744d0f4bcf017f5c1d8cf91ff0a2fe09c5ce6e2c8f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/scripts/__pycache__/pyflakes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c006d07db8dcfc5f9e68e07c73537c731f9340cd9d4b4e319641f2a8dac43cd",
+        "sha256_in_prefix": "4c006d07db8dcfc5f9e68e07c73537c731f9340cd9d4b4e319641f2a8dac43cd",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/scripts/pyflakes.py",
+        "path_type": "hardlink",
+        "sha256": "89b5afa647757db303592a0e70e69f608f8cca6ee94dbc44a520ffa011d95185",
+        "sha256_in_prefix": "89b5afa647757db303592a0e70e69f608f8cca6ee94dbc44a520ffa011d95185",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b6b77ab06802afc35c6a615beeda653534ce5fe45331fc47c3225d036e81096",
+        "sha256_in_prefix": "4b6b77ab06802afc35c6a615beeda653534ce5fe45331fc47c3225d036e81096",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/harness.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cae0d855ef7249e577cf6c5e868e2651d8e4d9c1235f31e4ce7127606ebcbb1",
+        "sha256_in_prefix": "0cae0d855ef7249e577cf6c5e868e2651d8e4d9c1235f31e4ce7127606ebcbb1",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab15c141ab935c1008aad86fe4df8a09e7ef2d0cd6ce9f0d84ea744f90f81acf",
+        "sha256_in_prefix": "ab15c141ab935c1008aad86fe4df8a09e7ef2d0cd6ce9f0d84ea744f90f81acf",
+        "size_in_bytes": 25926
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_builtin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db021437a45d9d66e22e2d3ed461e3dc5eb0fa5fa4275eab67a8484bb9b9bba3",
+        "sha256_in_prefix": "db021437a45d9d66e22e2d3ed461e3dc5eb0fa5fa4275eab67a8484bb9b9bba3",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_code_segment.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "816121526821884b8ba95ffc959ff8d63ae96a45afdff6c990a1b2cffd5d96de",
+        "sha256_in_prefix": "816121526821884b8ba95ffc959ff8d63ae96a45afdff6c990a1b2cffd5d96de",
+        "size_in_bytes": 3952
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_dict.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b50674a02806c74676a167cfed4da72d10794ac1e430dd1c17f1337072515ca9",
+        "sha256_in_prefix": "b50674a02806c74676a167cfed4da72d10794ac1e430dd1c17f1337072515ca9",
+        "size_in_bytes": 6455
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_doctests.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "954af0257672dadecbf7e8bcea422e2b558caeb3a8dbbde13b12e03c273df597",
+        "sha256_in_prefix": "954af0257672dadecbf7e8bcea422e2b558caeb3a8dbbde13b12e03c273df597",
+        "size_in_bytes": 13299
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_imports.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a668481ad2ec375823df6a3e3f4c05f0d6a8cc42e6c1f90947272f7a10e56aa2",
+        "sha256_in_prefix": "a668481ad2ec375823df6a3e3f4c05f0d6a8cc42e6c1f90947272f7a10e56aa2",
+        "size_in_bytes": 41777
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_is_literal.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "82f12a1ed23b2587b944b2012c200bd744e6db84edd6c7a07db684ddba081a44",
+        "sha256_in_prefix": "82f12a1ed23b2587b944b2012c200bd744e6db84edd6c7a07db684ddba081a44",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_match.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed0d393b6e5e0a68889d2ced6c64662b57f3951733a3df7c9d961d1c3d417bf2",
+        "sha256_in_prefix": "ed0d393b6e5e0a68889d2ced6c64662b57f3951733a3df7c9d961d1c3d417bf2",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_other.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "41a56ddce79c82d55802510c1920a37282848fb4d7ed30ccf4750bc2ef5054dd",
+        "sha256_in_prefix": "41a56ddce79c82d55802510c1920a37282848fb4d7ed30ccf4750bc2ef5054dd",
+        "size_in_bytes": 59435
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_type_annotations.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e51dee602f335eb768f5964e5cd7d6124428809a296436a456fb00473e08a3e0",
+        "sha256_in_prefix": "e51dee602f335eb768f5964e5cd7d6124428809a296436a456fb00473e08a3e0",
+        "size_in_bytes": 23860
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/__pycache__/test_undefined_names.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ca7bf42cf6e044f08876d9180a109b165b42cc65c6e641928caefa7472a123a",
+        "sha256_in_prefix": "8ca7bf42cf6e044f08876d9180a109b165b42cc65c6e641928caefa7472a123a",
+        "size_in_bytes": 28094
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/harness.py",
+        "path_type": "hardlink",
+        "sha256": "2e8dcec271b1ffac4f92f9c7dbdb6aff49ff59511fa2898a409dd10b2b131ea3",
+        "sha256_in_prefix": "2e8dcec271b1ffac4f92f9c7dbdb6aff49ff59511fa2898a409dd10b2b131ea3",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "31d2f013b5c12defe3484c097f4101165804e544905620abe284ca882c2105e0",
+        "sha256_in_prefix": "31d2f013b5c12defe3484c097f4101165804e544905620abe284ca882c2105e0",
+        "size_in_bytes": 26526
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_builtin.py",
+        "path_type": "hardlink",
+        "sha256": "931be33d8b45e2c0cda15d046f67fb295187301909aaedb5a08bc651bd0a7740",
+        "sha256_in_prefix": "931be33d8b45e2c0cda15d046f67fb295187301909aaedb5a08bc651bd0a7740",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_code_segment.py",
+        "path_type": "hardlink",
+        "sha256": "4fdc4162b4c5724f48012336e0eb62175e418d4fded19c30c6952002c9454f6e",
+        "sha256_in_prefix": "4fdc4162b4c5724f48012336e0eb62175e418d4fded19c30c6952002c9454f6e",
+        "size_in_bytes": 4496
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_dict.py",
+        "path_type": "hardlink",
+        "sha256": "2e7cf4ca0a97c8fb9ed4d659146acbb9df35ccddc7945e0435df0454da37e862",
+        "sha256_in_prefix": "2e7cf4ca0a97c8fb9ed4d659146acbb9df35ccddc7945e0435df0454da37e862",
+        "size_in_bytes": 5271
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_doctests.py",
+        "path_type": "hardlink",
+        "sha256": "9aa29f2c9846ffe7ab57c922ffc6aff7101ea63fdb5ec0d5795f0db5e0bb7867",
+        "sha256_in_prefix": "9aa29f2c9846ffe7ab57c922ffc6aff7101ea63fdb5ec0d5795f0db5e0bb7867",
+        "size_in_bytes": 12600
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_imports.py",
+        "path_type": "hardlink",
+        "sha256": "e99deede1c1e09b3bdeb8116ce09fa12d08f4dcafe52b225d28f3aa3b1dcec03",
+        "sha256_in_prefix": "e99deede1c1e09b3bdeb8116ce09fa12d08f4dcafe52b225d28f3aa3b1dcec03",
+        "size_in_bytes": 33703
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_is_literal.py",
+        "path_type": "hardlink",
+        "sha256": "a63f570923919b3159e9f3918f5dbf1c6b6158fe9137930f7a8ca3de4af0571b",
+        "sha256_in_prefix": "a63f570923919b3159e9f3918f5dbf1c6b6158fe9137930f7a8ca3de4af0571b",
+        "size_in_bytes": 4573
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_match.py",
+        "path_type": "hardlink",
+        "sha256": "7259486ddfffa3fc42e239d23c95f2de379b150b01df7d82fccfd3e42f4ed3e2",
+        "sha256_in_prefix": "7259486ddfffa3fc42e239d23c95f2de379b150b01df7d82fccfd3e42f4ed3e2",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_other.py",
+        "path_type": "hardlink",
+        "sha256": "6813f2c76e5428187dfed70048c6bff80c8e614a0e79511c6e8a6385cc18c9b9",
+        "sha256_in_prefix": "6813f2c76e5428187dfed70048c6bff80c8e614a0e79511c6e8a6385cc18c9b9",
+        "size_in_bytes": 50635
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_type_annotations.py",
+        "path_type": "hardlink",
+        "sha256": "d6154b3694af67438890af8b6fa2ed4297117713b207deff4efb18f387ae39ca",
+        "sha256_in_prefix": "d6154b3694af67438890af8b6fa2ed4297117713b207deff4efb18f387ae39ca",
+        "size_in_bytes": 19664
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyflakes/test/test_undefined_names.py",
+        "path_type": "hardlink",
+        "sha256": "ca3513c3b8de9fe4861406422c008b08b0d2bfcb17ae88c0ca13c97a5dd60691",
+        "sha256_in_prefix": "ca3513c3b8de9fe4861406422c008b08b0d2bfcb17ae88c0ca13c97a5dd60691",
+        "size_in_bytes": 23488
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8ab7d7d5ed11067bc2cb58b814e7c5e2466ad0661aa723ab5908e2d0b388451f",
+  "size": 122580,
+  "subdir": "linux-64",
+  "timestamp": 1701821089000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pyflakes-3.1.0-py38h06a4308_0.conda",
+  "version": "3.1.0"
+}

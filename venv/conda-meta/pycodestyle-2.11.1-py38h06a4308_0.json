@@ -1,0 +1,131 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/pycodestyle-2.11.1-py38h06a4308_0",
+  "files": [
+    "bin/pycodestyle",
+    "lib/python3.8/site-packages/__pycache__/pycodestyle.cpython-38.pyc",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pycodestyle.py"
+  ],
+  "fn": "pycodestyle-2.11.1-py38h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/root/miniconda3/pkgs/pycodestyle-2.11.1-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "0e5b97a2958f04b96dac021d39e0b10d",
+  "name": "pycodestyle",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/pycodestyle-2.11.1-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pycodestyle",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/pycodestyle_1701821051884/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2cf5cbdb1f90d3efa236bf1099bab40762e3518cf9d7413874a21ca976e8e8ef",
+        "sha256_in_prefix": "c20e1e163603b564a623056040131d3e3fb74900bff7c45de9e21cbc760b241b",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/pycodestyle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1753ff0de676e017c0a5c847281b0cc2334c597acbc11dd8127b6bbf67a1094",
+        "sha256_in_prefix": "e1753ff0de676e017c0a5c847281b0cc2334c597acbc11dd8127b6bbf67a1094",
+        "size_in_bytes": 68831
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f772295e81af3478d34e88e52d076200230ec7dd6a39e123bc5cb35aa66abdae",
+        "sha256_in_prefix": "f772295e81af3478d34e88e52d076200230ec7dd6a39e123bc5cb35aa66abdae",
+        "size_in_bytes": 1254
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6ebcd81a86bc1b499be13c8e5f87ff93034c1c05ff859a85ac89d1fbab1070d5",
+        "sha256_in_prefix": "6ebcd81a86bc1b499be13c8e5f87ff93034c1c05ff859a85ac89d1fbab1070d5",
+        "size_in_bytes": 4533
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "db7025589b53c87fbd63e21098d5c92ab160e2d0a45cc544fa4c8f0b3a1ba1bf",
+        "sha256_in_prefix": "db7025589b53c87fbd63e21098d5c92ab160e2d0a45cc544fa4c8f0b3a1ba1bf",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ba87dd91b68b4e9886a124b96b54d52a5c39d4b4b37d23a1a7a1726200b3764a",
+        "sha256_in_prefix": "ba87dd91b68b4e9886a124b96b54d52a5c39d4b4b37d23a1a7a1726200b3764a",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3302c4d20b88b7ae1a107b59cda12b650c0556c4785358e6ce7d4bfc2dd17d7a",
+        "sha256_in_prefix": "3302c4d20b88b7ae1a107b59cda12b650c0556c4785358e6ce7d4bfc2dd17d7a",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle-2.11.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ac76c81225e6bec274d7a98570b55c17f77e74a80fdd575f381e8259b8af66e8",
+        "sha256_in_prefix": "ac76c81225e6bec274d7a98570b55c17f77e74a80fdd575f381e8259b8af66e8",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycodestyle.py",
+        "path_type": "hardlink",
+        "sha256": "4997c525a32ca26d4b4853563447afdfcf04327408eee3d81be6e386b3e4de8a",
+        "sha256_in_prefix": "4997c525a32ca26d4b4853563447afdfcf04327408eee3d81be6e386b3e4de8a",
+        "size_in_bytes": 99725
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a17eba8cc4d13e5121c24c5cdfab32e04cfbf7c4004bcc55b948a78f7912ca0d",
+  "size": 55488,
+  "subdir": "linux-64",
+  "timestamp": 1701821089000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycodestyle-2.11.1-py38h06a4308_0.conda",
+  "version": "2.11.1"
+}

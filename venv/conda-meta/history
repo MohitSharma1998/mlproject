@@ -21,3 +21,32 @@
 +defaults/linux-64::xz-5.4.5-h5eee18b_0
 +defaults/linux-64::zlib-1.2.13-h5eee18b_0
 # update specs: ['python==3.8']
+==> 2024-02-09 11:57:33 <==
+# cmd: /root/miniconda3/bin/conda install black isort flake8
+# conda version: 23.11.0
+-defaults/linux-64::libffi-3.2.1-hf484d3e_1007
+-defaults/linux-64::openssl-1.1.1w-h7f8727e_0
+-defaults/linux-64::python-3.8.0-h0371630_2
+-defaults/linux-64::readline-7.0-h7b6447c_5
+-defaults/linux-64::sqlite-3.33.0-h62c20be_0
++defaults/linux-64::black-23.11.0-py38h06a4308_0
++defaults/linux-64::click-8.1.7-py38h06a4308_0
++defaults/linux-64::flake8-6.1.0-py38h06a4308_0
++defaults/linux-64::ld_impl_linux-64-2.38-h1181459_1
++defaults/linux-64::libffi-3.4.4-h6a678d5_0
++defaults/linux-64::mypy_extensions-1.0.0-py38h06a4308_0
++defaults/linux-64::openssl-3.0.13-h7f8727e_0
++defaults/linux-64::packaging-23.1-py38h06a4308_0
++defaults/linux-64::pathspec-0.10.3-py38h06a4308_0
++defaults/linux-64::platformdirs-3.10.0-py38h06a4308_0
++defaults/linux-64::pycodestyle-2.11.1-py38h06a4308_0
++defaults/linux-64::pyflakes-3.1.0-py38h06a4308_0
++defaults/linux-64::python-3.8.18-h955ad1f_0
++defaults/linux-64::readline-8.2-h5eee18b_0
++defaults/linux-64::sqlite-3.41.2-h5eee18b_0
++defaults/linux-64::tomli-2.0.1-py38h06a4308_0
++defaults/linux-64::typing_extensions-4.9.0-py38h06a4308_1
++defaults/noarch::isort-5.9.3-pyhd3eb1b0_0
++defaults/noarch::mccabe-0.7.0-pyhd3eb1b0_0
+# update specs: ['black', 'flake8', 'isort']
+# neutered specs: ['python==3.8.18']
